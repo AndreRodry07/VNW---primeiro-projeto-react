@@ -1,0 +1,69 @@
+.quality-product,
+.individuality-section,
+.profit-price {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.quality-product {
+    background-position: center;
+    background-image: url(../../assets/images/back-sec-2.png);
+}
+
+.quality-info,
+.individ-info,
+.profit-info {
+    padding-inline: 30px;
+    padding-block: 100px;
+}
+
+.quality-product h2,
+.individ-info h2,
+.profit-info h2 {
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    margin-bottom: 27px;
+}
+
+.quality-product p,
+.individ-info p,
+.profit-info p {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+.quality-info h2,
+.quality-info p,
+.individ-info h2,
+.individ-info p,
+.profit-info h2,
+.profit-info p {
+    line-height: 26px;
+    text-align: start;
+    word-spacing: 6px;
+    letter-spacing: 0.4px;
+    color: #fefbf6;
+}
+
+.individuality-section {
+    background-position: 40% 100%;
+    background-image: url(../../assets/images/back-sec-4.png);
+}
+
+.profit-price {
+    background-position: 50% 100%;
+    background-image: url(../../assets/images/back-sec6.png);
+}
+
+.video-reynegro {padding-block: 80px;}
+
+video {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-inline: auto;
+    object-fit: contain;
+}

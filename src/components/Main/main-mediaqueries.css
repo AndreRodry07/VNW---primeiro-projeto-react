@@ -1,0 +1,163 @@
+@media (min-width: 340px) {
+  .quality-product h2,
+  .individ-info h2,
+  .profit-info h2 {
+      letter-spacing: 3px;
+  }
+
+  .quality-product p,
+  .individ-info p,
+  .profit-info p {
+      font-weight: 600;
+      font-size: 1rem;
+      word-spacing: 5px;
+      letter-spacing: 2px;
+  }
+
+  .individuality-section {background-position: 40% 30%;}
+
+  .quality-product {
+      width: 100%;
+      height: auto;
+      background-size: cover;
+  }
+}
+
+@media (min-width: 550px) {
+  .quality-product h2,
+  .individ-info h2,
+  .profit-info h2 {
+      font-size: 1.7rem;
+  }
+
+  .quality-product p,
+  .individ-info p,
+  .profit-info p {
+      font-weight: 500;
+      font-size: 1.2rem;
+  }
+
+  .quality-info h2,
+  .quality-info p,
+  .individ-info h2,
+  .individ-info p,
+  .profit-info h2,
+  .profit-info p {
+      line-height: 30px;
+      letter-spacing: 4px;
+      letter-spacing: 0.5px;
+      color: #fefbf6;
+  }
+
+  .quality-product {height: 668px; background-position: 100% 0;}
+
+  .individuality-section {height: 668px; background-position: 35% 0;}
+
+  .profit-price {height: 668px; background-position: 50% 0;}
+}
+
+@media (min-width: 768px) {
+  .quality-info h2,
+  .quality-info p,
+  .individ-info h2,
+  .individ-info p,
+  .profit-info h2,
+  .profit-info p {
+      text-align: center;
+      word-spacing: 3px;
+      letter-spacing: 0.6px;
+      color: #fefbf6;
+  }
+
+  .quality-info,
+  .individ-info,
+  .profit-info {padding-inline: 35px;}
+
+  .quality-product {
+      height: 560px;
+      background-position: 60% 0;
+      background-image: url(../../assets/images/back-desk-2.png);
+  }
+
+  .individuality-section {
+      height: 560px;
+      background-position: 80% 0;
+      background-image: url(../../assets/images/back-desk-4.png);
+  }
+
+  .profit-price {
+      position: relative;
+      height: 560px;
+      background-position: 40% 0;
+      background-image: url(../../assets/images/back-desk-6.png);
+  }
+}
+
+@media (min-width: 992px) {
+  .product-info {font-size: 1.2rem; margin-bottom: 6px;}
+
+  .quality-info h2,
+  .quality-info p,
+  .individ-info h2,
+  .individ-info p,
+  .profit-info h2,
+  .profit-info p {
+      line-height: 30px;
+      word-spacing: 8px;
+      letter-spacing: 0.9px;
+      color: #fefbf6;
+  }
+
+  .quality-product {
+      max-width: 992px;
+      background-position: 63% 0;
+      background-image: url(../../assets/images/back-desk-2.png);
+  }
+
+  .individuality-section {
+      max-width: 992px;
+      background-position: 87% 0;
+      background-image: url(../../assets/images/back-desk-4.png);
+  }
+
+  .profit-price {
+      position: relative;
+      max-width: 992px;
+      background-position: 38% 0;
+      background-image: url(../../assets/images/back-desk-6.png);
+  }
+}
+
+@media (min-width: 1200px) {
+  .quality-product {max-width: 1200px; background-position: 70% 0;}
+
+  .individuality-section {max-width: 1200px; background-position: 80% 0;}
+
+  .profit-price {
+      max-width: 1200px;
+      height: 560px;
+      background-position: 40% 0;
+  }
+
+  .quality-info,
+  .individ-info {padding-inline: 50px; padding-block: 100px;}
+
+  .profit-info {
+      width: 60%;
+      position: absolute;
+      top: 22%;
+      right: 0;
+      padding-inline: 0;
+      padding-block: 0;
+  }
+
+  .profit-info p,
+  .profit-info h2 {padding-inline-end: 50px;text-align: start;}
+
+  .individ-info p,
+  .individ-info h2 {text-align: start;}
+
+  .individ-info p {width: 67%;}
+
+  video {width: 60%;}
+}

@@ -1,0 +1,17 @@
+@media (min-width: 340px) {
+    input::placeholder {font-size: 0.9rem;}
+
+    .form-control {padding: 10px 50px;}
+
+    .submit-btn {font-size: 0.8rem; padding: 10px 40px;}
+}
+
+@media (min-width: 550px) {
+    .form-control {padding: 10px 80px;}
+}
+
+@media (min-width: 992px) {
+    .submit-btn {font-size: 0.9rem;}
+}
+
+

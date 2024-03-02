@@ -1,0 +1,12 @@
+header {
+    height: 857px;
+    background-image: url(../../assets/images/backHeader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 51% 100%;
+    transition: ease .90s;
+    position: relative;
+    overflow: hidden;
+}
+
+

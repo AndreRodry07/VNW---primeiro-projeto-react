@@ -1,0 +1,20 @@
+@media (min-width: 340px) {
+  .logo-footer img {width: 100%;}
+
+  .image-footer-one {width: 30%;}
+
+  .image-footer-two {width: 27%;}
+}
+
+@media (min-width: 550px) {
+  .image-footer-one,
+  .image-footer-two {width: 20%;}
+}
+
+@media (min-width: 1200px) {
+  footer {width: 85%; max-width: 1200px;}
+
+  .image-footer-one {width: 14%;}
+
+  .image-footer-two {width: 15%;}
+}

@@ -1,0 +1,31 @@
+.image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+  }
+
+  .image-promo {display: flex; position: relative;}
+  
+  .overlay-image {max-width: 80%; margin-inline: auto;}
+  
+  .close-button {
+    position: absolute;
+    top: 36%;
+    right: 65%;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 60px;
+    background-color: #F3B95F;
+    color: #D04848;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

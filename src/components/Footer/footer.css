@@ -1,0 +1,79 @@
+footer {
+  width: 85%;
+  margin-inline: auto;
+  padding-block: 100px;
+  padding-inline: 20px;
+  position: relative;
+ 
+}
+
+.image-footer-one {
+  width: 50%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.image-footer-two {
+  width: 40%;
+  bottom: 10%;
+  right: 0;
+  position: absolute;
+}
+
+
+footer h2,
+.form-clients-corporate h3,
+.form-clients-corporate p {
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+footer h2,
+.form-clients-corporate p,
+.form-clients-corporate h3 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+footer h2 {margin-bottom: 20px;}
+
+.form-clients-corporate h3 {margin-bottom: 10px;}
+
+.social-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 10px;
+  bottom: -90px;
+  position: relative;
+}
+
+.logo-footer img {
+  width: 67%;
+  margin-inline: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.insta-icon,
+.face-icon,
+.x-icon {
+  color: #E8C872;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 17px;
+  transition: ease .8s;
+}
+
+.insta-icon:hover,
+.face-icon:hover,
+.x-icon:hover {
+  color: #DE8F5F;
+}
+
+
+
+

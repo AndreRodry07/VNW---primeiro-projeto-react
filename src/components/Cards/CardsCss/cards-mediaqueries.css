@@ -1,0 +1,97 @@
+@media (min-width: 340px) {
+  .cards-section {
+      width: 100%;
+      max-width: 340px;
+      margin-inline: auto;
+  }
+
+  .card-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 500px;
+      transition: ease 0.8s;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+  }
+
+  .card-list li {font-size: 0.8rem; padding-block: 4px;}
+
+  .product-info {font-size: 1rem; margin-bottom: 5px;}
+}
+
+@media (min-width: 550px) {
+  .cards-section {
+      width: 100%;
+      max-width: 550px;
+      padding-inline: 100px;
+  }
+
+  .card-list li {font-size: 0.9rem;}
+
+  .product-info {font-size: 1.2rem;}
+}
+
+@media (min-width: 768px) {
+  .cards-section {
+      width: 100%;
+      max-width: 768px;
+      flex-direction: row;
+      padding: 60px 20px;
+  }
+
+  .product-summary {margin-block: 20px 7px;}
+
+  .card-btn {padding: 10px 0;}
+
+  .card-btn a {font-size: 0.9rem; color: #f6f5f5;}
+
+  .style-wb {font-size: 0.8rem; color: #9f70fd;}
+
+  .card-list li {font-size: 0.6rem; padding-block: 4px;}
+
+  .product-info {font-size: 0.8rem; margin-bottom: 2px;}
+}
+
+@media (min-width: 992px) {
+  .cards-section {
+      width: 100%;
+      max-width: 950px;
+      gap: 25px;
+      padding: 60px 30px;
+      transition: ease 0.9s;
+  }
+
+  .card-btn a {font-size: 0.9rem; color: #f6f5f5;}
+
+  .style-wb {font-size: 0.8rem; color: #9f70fd;}
+
+  .card-list .product-info {font-size: 0.9rem;}
+
+  .card-list li { font-size: 0.7rem; padding-block: 2px;}
+}
+
+@media (min-width: 1200px) {
+  .cards-section {
+      width: 100%;
+      max-width: 1300px;
+      padding-inline: 100px;
+      gap: 60px;
+      transition: ease 0.9s;
+  }
+
+  .card-btn {padding: 10px 0;}
+
+  .card-btn a {font-size: 0.9rem; color: #f6f5f5;}
+
+  .style-wb {font-size: 0.8rem;color: #9f70fd;}
+
+  .card-list .product-info {font-size: 1.2rem;}
+
+  .card-list li {letter-spacing: 2px; font-size: 0.8rem;}
+}
